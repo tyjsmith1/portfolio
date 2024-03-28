@@ -17,7 +17,7 @@ export default function Nav() {
                             height={50}
                             priority
                         />
-                        <h1 className="text-4xl font-bold align-bottom">yler Smith</h1>
+                        <h1 className="text-4xl font-bold align-bottom ml-1">yler Smith</h1>
                     </li>
                     <li>
                         <ModeToggle/>
