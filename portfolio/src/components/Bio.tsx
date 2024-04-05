@@ -14,7 +14,7 @@ export default function Bio() {
     return (
         <div className="w-1/2 justify-end">
             <div className="px-6">
-                <h1 className="text-3xl font-bold border-b border-gray-200">About Me</h1>
+                <h1 className="text-3xl font-bold border-b border-gray-200 mb-4 pb-4">About Me</h1>
                 {paragraph.map(({ id, paragraph}) => 
                 <p key={id} className="mb-4 text-muted-foreground">{paragraph}</p>
                 )}
