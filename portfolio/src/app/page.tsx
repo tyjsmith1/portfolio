@@ -11,11 +11,11 @@ export default function Home() {
     <main className="p-20">
       <Nav />
       <section className="py-10 flex flex-col gap-8 items-center text-center">
-        <h1 className="text-4xl font-bold">Hello, I'm a software engineer</h1>
+        <h1 className="text-4xl font-bold">Hey there! I'm on a coding adventure.</h1>
         <Portrait/>
         <Socials/>
         <p className="text-2xl text-muted-foreground">
-          I'm a software engineer and I'm passionate about building high-quality software.
+          A software developer with a product background walks into a bar...
         </p>
       </section>
       <div className="flex w-full">

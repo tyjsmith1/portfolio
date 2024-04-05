@@ -28,7 +28,9 @@ export default function Skills() {
                 <ul className="flex flex-wrap justify-end h-full">
                     {skills.map(({ name, icon: Icon, colorClass}) => (
                         <li key={name} className="py-2 flex flex-col items-center m-3 mt-5 text-2xl hover:scale-105 transition-transform duration-200">
-                            <Icon className={colorClass ?? ''} size={60}/> {name}</li>
+                            <Icon className={colorClass ?? ''} size={60}/>
+                            {name}
+                        </li>
                     ))}
                 </ul>
             </div>
